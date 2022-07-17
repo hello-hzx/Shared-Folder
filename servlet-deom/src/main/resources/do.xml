@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<controllers>
+    <controller class="com.jon.UserController">
+        <method>
+            <name>login</name>
+            <uri>user/login</uri>
+        </method>
+        <method>
+            <name>logout</name>
+            <uri>user/logout</uri>
+        </method>
+    </controller>
+    <controller class="com.jon.QuestionController">
+        <method>
+            <name>questionList</name>
+            <uri>question/list</uri>
+        </method>
+    </controller>
+</controllers>
